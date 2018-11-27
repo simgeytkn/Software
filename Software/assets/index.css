@@ -1,0 +1,80 @@
+body{
+    background: #efdee1 !important;
+}
+.login .header{
+    text-align: center;
+    padding: 5em 0;
+    font-style: italic;
+}
+.login .header h1{
+    font-size: 3em;
+    color: grey;
+}
+.ui.centered.grid.login{
+    align-items: center;
+}
+.login .five.wide.column .ui.button{
+    width: 100%;
+    background: #c5dcef;
+    border-radius: 45px;
+}
+.login img{
+    height: 8em;
+    width: 8em;
+}
+.patient,
+.patient-login{
+    padding: 2em;
+}
+.patient-login .list{
+    display: inline-grid;
+    padding: 2em 0;
+}
+.patient-login .list .icon.button{
+    background: rgb(119, 189, 223);
+    margin-top: 1em;
+    width: 15em;
+}
+.order{
+    padding-top: 3em;
+    display: table;
+    margin: auto;
+}
+form.ui.form{
+    display: table;
+    margin: auto;
+    margin-top: 5em;
+}
+#order-online{
+    width: 100%;
+}
+#order-table{
+}
+.check.circle.icon{
+    color: green;
+    font-size: 2em;
+}
+.times.circle.icon{
+    color: red;
+    font-size: 2em;
+}
+.scroll-orders{
+    margin: auto;
+    width: 95%;
+    height: 20em;
+    overflow-y: auto;
+    margin-bottom: 2em;
+}
+.headers{
+    width: 95%;
+    margin: auto;
+}
+.scroll-orders .ui.icon.input{
+    width: 50%;
+}
+#send button.ui.red.button{
+    width: 25%;
+}
+#info-patient{
+    display: table;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="./assets/semantic.min.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="patient-login">
+        <div class="ui form">
+            <div class="fields">
+                <div class="field">
+                     <label>Pharmacy No</label>
+                    <input type="text" placeholder="1234567890">
+                </div>
+                <div class="field">
+                    <label>Password</label>
+                    <input type="password" placeholder="*******">
+                </div>
+            </div>
+                <button class="ui blue button">
+                    Log-In
+                </button>
+        </div>
+    </div>
+
+    <div class="headers">
+        <h3>Orders</h3> 
+    </div>
+
+    <p></p>
+    <div class="scroll-orders">
+        <table class="ui teal table" id="order-table">
+            <thead>
+                <tr>
+                    <th>New Orders</th>
+                    <th>Patient's Information</th>
+                    <th>Medicine</th>
+                    <th>Paying Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Merve Şahin</td>
+                    <td>Parol - Majezik - Calpol</td>
+                    <td>
+                        <i class="check circle icon"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Simge Yatkın / Parol - Majezik</td>
+                    <td>Parol - Majezik</td>
+                    <td>
+                        <i class="times circle icon"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Merve Şahin</td>
+                    <td>Parol - Majezik - Calpol</td>
+                    <td>
+                        <i class="check circle icon"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Simge Yatkın / Parol - Majezik</td>
+                    <td>Parol - Majezik</td>
+                    <td>
+                        <i class="times circle icon"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Merve Şahin</td>
+                    <td>Parol - Majezik - Calpol</td>
+                    <td>
+                        <i class="check circle icon"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Simge Yatkın / Parol - Majezik</td>
+                    <td>Parol - Majezik</td>
+                    <td>
+                        <i class="times circle icon"></i>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="headers">
+        <h3>Stocks</h3> 
+    </div>
+    <div class="scroll-orders">
+        <p></p>
+        <div class="ui icon input">
+            <input type="text" placeholder="Please enter name of medicine you want to search...">
+            <i class="inverted circular search link icon"></i>
+        </div>
+    </div>
+</body>
+</html>
